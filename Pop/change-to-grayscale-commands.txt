@@ -1,0 +1,2 @@
+x=$(find . -name *desktop*.png)
+for i in $x; do convert "$i" -colorspace Gray "$i"; done
